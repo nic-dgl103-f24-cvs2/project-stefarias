@@ -39,7 +39,7 @@ Café Brio - https://cafebrio.com/#italian-inspired: The calm, neutral palette a
 
 ### Colors 
 
-Highlight Color: Soft Pastel (I'm not sure of the exact color yet, but they'll be more pastel shades).
+Colors: Black, white and grey.
 
 
 ### Images:
