@@ -10,7 +10,7 @@ html {
 body {
   font-size: 1.4rem;
   margin: 0;
-  font-family: "Ubuntu", serif;
+  font-family: 'Ubuntu', serif;
   font-weight: 400;
   color: hsl(205, 13%, 67%);
   line-height: 1.5;
@@ -37,6 +37,11 @@ a {
 
 a.toggle {
   margin: 0;
+  padding: 0;
+  display: inline;
+  font-size: 3rem;
+  cursor: pointer;
+  color: white;
 }
 
 a.button {
@@ -45,16 +50,6 @@ a.button {
   background-color: black;
   border-radius: 4px;
   display: inline-block;
-  text-decoration: none;
-  font-size: 1.2rem;
-  margin: 26px 0;
-}
-
-.login-button {
-  color: white;
-  text-transform: uppercase;
-  background-color: hsl(218, 15%, 31%);
-  border-radius: 4px;
   text-decoration: none;
   font-size: 1.2rem;
   margin: 26px 0;
@@ -80,18 +75,17 @@ header {
   background-color: hsl(0deg 0% 0%);
 }
 
-header img {
+.img-logo{
+  padding: 0;
+}
+
+header a img {
   width: 300px;
   border-radius: 5px;
 }
 
-.login-button {
-  display: none;
-}
-
 header nav ul {
-  display: none;
-  background-color: hsl(218, 15%, 31%);
+  background-color: black;
   position: absolute;
   left: 0;
   width: 100%;
@@ -113,16 +107,6 @@ nav ul li a {
   color: white;
 }
 
-.login-button-mobile a {
-  background-color: hsl(0, 0%, 100%);
-  color: hsl(218, 15%, 31%);
-  margin: 0 auto;
-  border-radius: 4px;
-  text-decoration: none;
-  font-size: 1.2rem;
-  display: inline-block;
-}
-
 .show-items {
   display: flex;
   flex-direction: column;
@@ -131,10 +115,9 @@ nav ul li a {
 /*-------- HERO SECTION ---------*/
 
 section.hero {
-  background-image: url("images/hero-img.png");
+  background-image: url('images/hero-img.png');
   background-repeat: no-repeat;
   text-align: center;
-  height: 100vh;
   padding: 56px 0;
 }
 
@@ -400,9 +383,7 @@ footer {
   text-decoration: underline;
 }
 
-.contact-media {
-  margin-bottom: 20px;
-}
+
 
 .contact-photo {
   width: 100%;
@@ -422,6 +403,29 @@ video {
   height: 300px;
   border-radius: 10px;
 }
+.contact-form{
+  background-color: #fff;
+  padding:25px;
+	margin:50px 0;
+}
+fieldset{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: none;
+}
+input, textarea{
+  width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+iframe{
+  width: 300px;
+}
 
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 @media only screen and (min-width: 1200px) {
@@ -437,7 +441,7 @@ video {
     display: inline-block;
   }
 
-  .toggle {
+  a.toggle {
     display: none;
   }
 
@@ -461,13 +465,6 @@ video {
   header nav ul {
     display: flex;
     justify-content: space-around;
-  }
-
-  .login-button {
-    order: 3;
-  }
-  .login-button-mobile {
-    display: none;
   }
 
   .content-width {
@@ -606,15 +603,8 @@ video {
   }
 
   .contact-info p {
-    font-size: 1.2rem;
-  }
-
-  .contact-media {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    margin-bottom: 40px;
+    font-size: 1.4rem;
+    padding-bottom: 20px;
   }
 
   .contact-photo,
@@ -629,11 +619,16 @@ video {
     border-radius: 10px;
   }
 
+  iframe{
+    width: 500px;
+  }
+
   /* LARGE HERO */
 
   section.hero {
     background-size: cover;
     text-align: initial;
+    height: 100vh;
     height: initial;
   }
 
@@ -648,5 +643,10 @@ video {
   .about {
     display: flex;
     justify-content: space-around;
+  }
+  .contact-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
   }
 }
