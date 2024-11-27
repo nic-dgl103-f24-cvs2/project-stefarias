@@ -27,21 +27,13 @@
           ><i class="fa fa-bars" aria-hidden="true"></i
         ></a>
         <ul id="nav-items">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Portfolio</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="team.html">Our Team</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
           <li class="login-button-mobile">
             <a href="#">Log in</a>
           </li>
@@ -59,27 +51,70 @@
             services to small and mid-sized businesses in Courtenay, Comox,
             Cumberland and all neighbouring towns in the Comox Valley.
           </p>
-          <a class="button" href="#">Explore My Work</a>
+          <a class="button" href="./contact.html">Get in Touch</a>
         </div>
       </section>
 
-      <!--About Section-->
-      <section class="about">
-        <div class="about-content">
-          <h2>Meet Nicole Cahoon</h2>
-          <p>
-            At Nicole Cahoon, CPA we are committed to provide a variety of
-            services to meet the needs of our clients by fostering an
-            environment that encourages personal and professional growth. We are
-            dedicated to provide excellent customer service by focusing on the
-            three underlying principles of professionalism, responsiveness and
-            quality. We specialize in small to medium size businesses in the
-            Comox Valley and surrounding areas.
-          </p>
+      <!--About Us Section-->
+      <section id="about-us">
+        <div class="about-us-container">
+          <img
+            src="images/nicole-and-dogs.png"
+            alt="Nicole Cahoon and dogs"
+            class="about-us-image"
+          />
+          <div class="about-us-content">
+            <h2>Meet Nicole Cahoon</h2>
+            <p>
+              At Nicole Cahoon, CPA we are committed to provide a variety of
+              services to meet the needs of our clients by fostering an
+              environment that encourages personal and professional growth. We
+              are dedicated to provide excellent customer service by focusing on
+              the three underlying principles of professionalism, responsiveness
+              and quality. We specialize in small to medium size businesses in
+              the Comox Valley and surrounding areas.
+            </p>
+          </div>
         </div>
       </section>
 
-      <!--Benefits Section and Portfolio Section-->
+      <!--Services Section-->
+      <section id="services">
+        <div class="services-container">
+          <h2>Accounting Services</h2>
+          <div class="service">
+            <h3>Corporate Year Ends - Financial Statements Preparation</h3>
+            <p>
+              We can prepare your financial statements in accordance with
+              professional standards, but express no opinion or any other form
+              of assurance on the underlying information included in them. The
+              financial statements produced are a useful tool for making
+              financial decisions.
+            </p>
+          </div>
+          <div class="service">
+            <h3>Cash Flow Analysis</h3>
+            <p>
+              We can evaluate your company's financial position, estimate
+              financing requirements, and track cash-flow sources.
+            </p>
+          </div>
+          <div class="service">
+            <h3>Bookkeeping Services</h3>
+            <p>
+              We can organize your financial records to ensure that your small
+              or midsized business operates efficiently, which is the basis of
+              successful business.
+            </p>
+            <p>
+              For more information, or to book an appointment call our office
+              today!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why choose us and Testimonials-->
       <section class="testimonials">
         <h2>Why Choose Us?</h2>
         <div class="testimonial-cards">
@@ -107,10 +142,7 @@
               “Nicole and her team have been so helpful with mine and my
               husband's taxes. Between a business, a rental property, and any
               other questions we've had, she's made our paperwork confusion
-              clearer and smoother. Not only has she helped us sort out any
-              issues or questions we've had, she's also been proactive in making
-              suggestions on how to improve things that hadn't even occurred to
-              us. We will certainly be using her services for years to come!”
+              clearer and smoother.  We will certainly be using her services for years to come!”
             </p>
             <h3>Heather Green</h3>
             <span>RMT</span>
@@ -120,12 +152,12 @@
 
       <!--Call-to-action-->
       <section class="call-to-action">
-        <h2>Ready to Bring Your Ideas to Life?</h2>
+        <h2>Let's Make Your Numbers Work for You</h2> <!-- Text from ChatGPT-->
+
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod.
+          For more information, or to book an appointment contact us today!
         </p>
-        <a class="cta-button" href="#">Get in Touch</a>
+        <a class="cta-button" href="#">Contact Us</a>
       </section>
     </main>
 
@@ -133,12 +165,12 @@
     <footer>
       <ul class="footer-list">
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Our Team</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-      <p class="footer-copyright">©2024 - Form | All rights reserved</p>
+      <p class="footer-copyright">
+        ©2024 - Nicole Cahoon | All rights reserved
+      </p>
     </footer>
     <script>
       function showNav() {

@@ -128,32 +128,93 @@ nav ul li a {
   flex-direction: column;
 }
 
-/*-------- ABOUT SECTION ---------*/
-.about {
-  padding: 40px 20px;
+/*-------- HERO SECTION ---------*/
+
+section.hero {
+  background-image: url("images/hero-img.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100vh;
+  padding: 56px 0;
 }
 
-.about-content h2 {
-  font-size: 2.4rem;
-  color: black;
-  font-weight: 700;
-}
+/*-------- ABOUT US SECTION ---------*/
 
-.about-content p {
-  color: hsl(205, 13%, 67%);
-  max-width: 500px;
-  margin: 0 auto 20px;
-}
-
-.about-content a {
-  color: hsl(218, 15%, 31%);
-  font-weight: 400;
-}
-.about-content {
+#about-us {
+  padding: 20px;
   text-align: center;
 }
 
-/*-------- BENEFITS SECTION AND PORTFOLIO SECTION ---------*/
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.about-us-content {
+  margin-top: 20px;
+}
+
+.about-us-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.about-us-content p {
+  font-size: 1.4rem;
+  color: grey;
+  line-height: 1.8;
+}
+
+/*-------- SERVICES SECTION  ---------*/
+
+#services {
+  background-color: #f5f5f5; /* Cinza claro */
+  padding: 40px 20px;
+  color: #333;
+}
+
+.services-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#services h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.service {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.service h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.service p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: grey;
+}
+
+
+/*-------- WHY CHOOSE US AND TESTIMONIALS SECTION ---------*/
 .testimonials {
   padding: 40px 20px;
   text-align: center;
@@ -204,9 +265,10 @@ nav ul li a {
   color: hsl(205, 13%, 67%);
   font-size: 12px;
 }
+
 /*-------- CALL-TO-ACTION ---------*/
 .call-to-action {
-  background-color: hsl(204, 24%, 96%);
+  background-color: #f5f5f5;
   padding: 40px 20px;
   text-align: center;
 }
@@ -268,26 +330,25 @@ footer {
   border-top: 1px solid hsl(207, 22%, 84%);
 }
 
-/*-------- HERO SECTION ---------*/
+/*-------- TEAM PAGE --------*/
 
-section.hero {
-  background-image: url("images/nicole-and-dogs.png");
-  background-position: bottom right;
-  background-size: 85%;
-  background-repeat: no-repeat;
-  text-align: center;
-  height: 100vh;
-  padding: 56px 0;
-}
+
+/*-------- CONTACT PAGE --------*/
+
+
 
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 @media only screen and (min-width: 1200px) {
   h1 {
-    font-size: 6.6rem;
+    font-size: 5rem;
     font-weight: 400;
     padding-left: 0;
     padding-right: 0;
     width: 50%;
+  }
+
+  a {
+    display: inline-block;
   }
 
   .toggle {
@@ -313,6 +374,7 @@ section.hero {
 
   header nav ul {
     display: flex;
+    justify-content: space-around;
   }
 
   .login-button {
@@ -326,22 +388,46 @@ section.hero {
     width: 1130px;
   }
 
-  .about-content {
+  #about-us {
+    padding: 40px 80px;
     text-align: left;
-    letter-spacing: 0px;
-    top: 98px;
-    left: 150px;
-    width: 360px;
-    height: 56px;
   }
 
-  .about-content h2 {
-    font-size: 50px;
+  .about-us-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
   }
 
-  .testimonials h2 {
-    font-size: 50px;
-    margin-bottom: 70px;
+  .about-us-image {
+    width: 40%;
+    max-width: 500px;
+    border-radius: 10px;
+  }
+
+  .about-us-content {
+    flex: 1;
+  }
+
+  .about-us-content h2 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: black;
+  }
+
+  .about-us-content p {
+    font-size: 1.6rem;
+  }
+
+  #services {
+    padding: 60px 80px; 
+  }
+
+  .services-container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    text-align: left; 
   }
 
   .testimonial p {
@@ -377,14 +463,12 @@ section.hero {
     gap: 40px;
   }
 
-  .about {
-    padding-bottom: 350px;
-  }
+  
 
   /* LARGE HERO */
 
   section.hero {
-    background-size: auto 75%;
+    background-size: cover;
     text-align: initial;
     height: initial;
   }
@@ -394,10 +478,12 @@ section.hero {
     padding-left: 0;
     padding-right: 0;
     width: 50%;
+    color: grey;
   }
 
   .about {
     display: flex;
     justify-content: space-around;
   }
+
 }
