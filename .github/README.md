@@ -12,15 +12,15 @@ The website needs an update to improve clarity, visual appeal and user experienc
 
 ### Key Objectives:
 
- - Primary Purpose: The website should effectively show Nicole's portfolio and services, creating a impression of professionalism and creativity.
+ - Primary Purpose: The website should effectively show Nicole's services, creating a impression of professionalism and creativity.
 
  - Target Audience: The primary audience includes potential clients looking for professional and creative services.
 
- - Core Message and Actions: The site have to show professionalism and dedication to quality, encouraging users to explore her portfolio and reach out for consultations.
+ - Core Message and Actions: The site have to show professionalism and dedication to quality, encouraging users to explore her website and reach out for consultations.
 
 ### Current Site Limitations:
 
-The current site has limitations in terms of accessibilit and design consistency. The visual style lacks the calm, modern feel and the content could be better organized to enhance user engagement and experience.
+The current site has limitations in terms of accessibilit, design consistency and contrast. The visual style lacks the calm, modern feel and the content could be better organized to enhance user engagement and experience.
 
 
 ## 2. Look and Feel
@@ -64,9 +64,7 @@ The redesigned website will consist of three primary pages:
 
  - Main Navigation: 
      - Home
-     - About
-     - Services 
-     - Portfolio 
+     - Our Team
      - Contact
 
 
@@ -76,49 +74,37 @@ The redesigned website will consist of three primary pages:
 
  - Engaging Image (to represent Nicole’s work or style)
 
- - Link to Portfolio: "Explore My Work"
+ - Link to Contact: "Get in Touch"
 
 
 #### About Section
 
  - Heading: “About Us” or "Meet Nicole Cahoon"
 
- - Paragraph: Brief introduction to Nicole’s professional approach and values
-
- - Portfolio Section / Recent Work
+ - Paragraph: Brief introduction to Nicole’s professional approach and values and her photo
 
  - No link here
 
 
-#### Benefits Section
+#### Services Section
+
+ - Heading: “Accounting Services”
+
+ - List of some of the types of work the company performs 
+
+
+#### Why Choose Us and Testimonials Section
 
  - Heading: “Why Choose Us?”
 
- - List of 3 Reasons Why Our Company is the Best:
-     - High-quality, customized designs tailored to your brand.
-     - Experienced team dedicated to achieving your vision.
-     - Fast turnaround and reliable communication.
-
- - Link to ‘Why Work With Us’ Page: "Learn More"
-
-
-#### Portfolio Section
-
- - Heading: “Our Work”
-
- - List of 6 Project Cards (Each Card Includes):
-     - Project heading
-     - Project image
-     - Link to detailed project page
-
- - Link to Portfolio Page: "See More Projects"
+ - List of the testimonials from some of the people who have already hired the business
 
 
 #### Call-to-Action
 
- - Heading: “Ready to Bring Your Ideas to Life?”
+ - Heading: “Let's Make Your Numbers Work for You”
 
- - Link to Contact Page: "Get in Touch"
+ - Link to Contact Page: "Contact Us"
 
 
 #### Footer
@@ -127,12 +113,12 @@ The redesigned website will consist of three primary pages:
 
  - Paragraph: Short description about the company’s mission and vision
 
- - Navigation: Home, About, Services, Portfolio, Contact
+ - Navigation: Home, Our Team and Contact
 
- - Copyright Notice: “© [Year] [Company Name]. All rights reserved.”
+ - Copyright Notice: “© [Year] Nicole Cahoon. All rights reserved.”
 
 
-### About Us Page
+### Contact Page
 
 
 #### Header
@@ -142,29 +128,21 @@ The redesigned website will consist of three primary pages:
 
 #### Small Hero Section
 
- - Heading: “About Our Company”
+ - Heading: Contact info (phone, email)
 
- - Image: Team or office environment image
+ - Image: Nicole Cahoon
 
 
-#### Our History Section
+#### Video Section
 
- - Heading: “Our History”
+ - A video and a brief description of the work, in a way that motivates the client
 
- - Image: Relevant image that represents the company’s journey or achievements
 
- - Paragraphs: Brief overview of the company’s foundation, milestones, and growth
+#### Map Section
 
-#### The Team Section
+ - A map showing the business location
 
- - Heading: “Meet the Team”
-
- - Cards for Each Team Member (Each Card Includes):
-     - Name
-     - Job Title
-     - Image of the team member
-
-#### Call-to-Action
+#### Call-to-Action (only in Our Team Page)
 
  - (Same as on Home Page)
 
