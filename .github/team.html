@@ -17,9 +17,8 @@
     />
   </head>
   <body>
-    
-     <!--Header-->
-     <header>
+    <!--Header-->
+    <header>
       <img src="images/nicole-logo.png" alt="Logo" />
       <a href="#" class="login-button">Log in</a>
 
@@ -42,21 +41,94 @@
       </nav>
     </header>
 
-    
-  <!--Footer-->
-  <footer>
-    <ul class="footer-list">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Our Team</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-    <p class="footer-copyright">©2024 - Nicole Cahoon | All rights reserved</p>
-  </footer>
-  <script>
-    function showNav() {
-      var element = document.getElementById("nav-items");
-      element.classList.toggle("show-items");
-    }
-  </script>
-</body>
+    <!--Our Team-->
+    <section id="our-team">
+      <div class="team-member">
+        <img
+          src="images/team-nicole.jpg"
+          alt="Nicole Cahoon"
+          class="team-photo"
+        />
+        <div class="team-info">
+          <h2>Nicole Cahoon</h2>
+          <p>
+            Nicole has lived on Vancouver Island for more than twenty years. Ten
+            years ago she moved to the Comox Valley with her husband and two
+            daughters. She has been on several boards in the Valley, including
+            the Women's Business Network, Corporate Connections and Today N'
+            Tomorrow Learning Society. In her spare time, she enjoys traveling
+            and spending time with her family.
+          </p>
+          <p>
+            With 7 years of public practice experience, and after completing her
+            Bachelors of Administration Degree and the Certified General
+            Accountants Program, Nicole started her own practice. She operates
+            her practice from the perspective of a small business owner, which
+            gives her the ability to offer practical solutions to her clients.
+          </p>
+        </div>
+      </div>
+
+      <div class="team-member reverse-layout">
+        <div class="team-info">
+          <h2>Brianne Clare</h2>
+          <p>
+            Brianne is our Office Manager, bookkeeper and assists Nicole with
+            Estates. With over 12 years of administrative and bookkeeping
+            experience and a certificate in accounting, she joined our office in
+            January 2016. Born in Powell River, Brianne moved to the Comox
+            Valley as a child. She now enjoys the upbeat small-town vibe of
+            Cumberland with her family.
+          </p>
+          <p>
+            Brianne has volunteered with various fundraising events including
+            the Youth and Mental Health Fundraiser, Vancouver Island Compassion
+            Dogs and Comox Valley Child Development Society.
+          </p>
+        </div>
+        <img
+          src="images/team-brianne.jpg"
+          alt="Brianne Clare"
+          class="team-photo"
+        />
+      </div>
+
+      <div class="team-member">
+        <img src="images/team-melissa.png" alt="Melissa" class="team-photo" />
+        <div class="team-info">
+          <h2>Melissa</h2>
+          <p>
+            Melissa joined our office in January of 2021. With over 7 years in
+            customer service, an administration background and bookkeeping
+            certificate, she works closely with our administration team and
+            assists with bookkeeping.
+          </p>
+          <p>
+            She has called the Comox Valley home for 18 years and is often out
+            enjoying the wilderness with family and friends. Melissa has a
+            passion for travel and when she's not planning her next adventure,
+            she can be found with a good book.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <ul class="footer-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p class="footer-copyright">
+        ©2024 - Nicole Cahoon | All rights reserved
+      </p>
+    </footer>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
 </html>
