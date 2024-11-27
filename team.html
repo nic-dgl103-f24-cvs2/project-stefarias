@@ -15,28 +15,26 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!--Header-->
     <header>
-      <img src="images/nicole-logo.png" alt="Logo" />
-      <a href="#" class="login-button">Log in</a>
-
+      <a href="./index.html" class="img-logo"> <img src="images/nicole-logo.png" alt="Logo" /></a>
       <nav>
         <a class="toggle" onclick="showNav()"
           ><i class="fa fa-bars" aria-hidden="true"></i
         ></a>
         <ul id="nav-items">
-          <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="team.html">Our Team</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-          <li class="login-button-mobile">
-            <a href="#">Log in</a>
-          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -69,7 +67,12 @@
         </div>
       </div>
 
-      <div class="team-member reverse-layout">
+      <div class="team-member">
+        <img
+          src="images/team-brianne.jpg"
+          alt="Brianne Clare"
+          class="team-photo"
+        />
         <div class="team-info">
           <h2>Brianne Clare</h2>
           <p>
@@ -86,11 +89,6 @@
             Dogs and Comox Valley Child Development Society.
           </p>
         </div>
-        <img
-          src="images/team-brianne.jpg"
-          alt="Brianne Clare"
-          class="team-photo"
-        />
       </div>
 
       <div class="team-member">
@@ -115,11 +113,10 @@
 
     <!--Call-to-action-->
     <section class="call-to-action">
-      <h2>Let's Make Your Numbers Work for You</h2> <!-- Text from ChatGPT-->
+      <h2>Let's Make Your Numbers Work for You</h2>
+      <!-- Text from ChatGPT-->
 
-      <p>
-        For more information, or to book an appointment contact us today!
-      </p>
+      <p>For more information, or to book an appointment contact us today!</p>
       <a class="cta-button" href="#">Contact Us</a>
     </section>
 
