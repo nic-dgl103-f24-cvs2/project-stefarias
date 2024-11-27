@@ -17,48 +17,87 @@
     />
   </head>
   <body>
+    <!--Header-->
+    <header>
+      <img src="images/nicole-logo.png" alt="Logo" />
+      <a href="#" class="login-button">Log in</a>
 
-   <!--Header-->
-   <header>
-    <img src="images/nicole-logo.png" alt="Logo" />
-    <a href="#" class="login-button">Log in</a>
+      <nav>
+        <a class="toggle" onclick="showNav()"
+          ><i class="fa fa-bars" aria-hidden="true"></i
+        ></a>
+        <ul id="nav-items">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="team.html">Our Team</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <li class="login-button-mobile">
+            <a href="#">Log in</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <nav>
-      <a class="toggle" onclick="showNav()"
-        ><i class="fa fa-bars" aria-hidden="true"></i
-      ></a>
-      <ul id="nav-items">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="team.html">Our Team</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <li class="login-button-mobile">
-          <a href="#">Log in</a>
-        </li>
+    <!--Contact-->
+    <section id="contact-page">
+      <div class="contact-info">
+        <h2>Contact Us</h2>
+        <p>
+          <strong>Phone:</strong> <a href="tel:12508711121">125-087-11121</a>
+        </p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:Nicole@nicolecahoon.com">Nicole@nicolecahoon.com</a>
+        </p>
+      </div>
+
+      <div class="contact-media">
+        <img
+          src="images/nicole-contact.png"
+          alt="Nicole Contact"
+          class="contact-photo"
+        />
+
+        <video width="320" height="240" autoplay loop muted>
+          <source src="images/video.mp4" type="video/mp4" />
+          <source src="movie.ogg" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="contact-map">
+        <iframe
+          class="store-map"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20651.835363521026!2d-124.991454!3d49.682944!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54881477e9282537%3A0x82e229134d19fe92!2s350%2017th%20St%20Unit%20%231%2C%20Courtenay%2C%20BC%20V9N%201Y4%2C%20Canad%C3%A1!5e0!3m2!1spt-BR!2sus!4v1732647322782!5m2!1spt-BR!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <ul class="footer-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
-    </nav>
-  </header>
-
-
-
-
-  <!--Footer-->
-  <footer>
-    <ul class="footer-list">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Our Team</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-    <p class="footer-copyright">©2024 - Nicole Cahoon | All rights reserved</p>
-  </footer>
-  <script>
-    function showNav() {
-      var element = document.getElementById("nav-items");
-      element.classList.toggle("show-items");
-    }
-  </script>
-</body>
+      <p class="footer-copyright">
+        ©2024 - Nicole Cahoon | All rights reserved
+      </p>
+    </footer>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
 </html>
