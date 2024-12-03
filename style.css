@@ -380,7 +380,7 @@ footer {
 }
 
 .contact-info a {
-  color: grey;
+  color: #373332;
   text-decoration: none;
 }
 
@@ -406,6 +406,7 @@ video {
   height: 300px;
   border-radius: 10px;
 }
+
 .contact-form {
   background-color: #e8e5e5;
   padding: 25px;
@@ -413,6 +414,7 @@ video {
   width: 100%;
   border-radius: 10px;
 }
+
 fieldset {
   display: flex;
   flex-direction: column;
@@ -420,6 +422,7 @@ fieldset {
   justify-content: center;
   border: none;
 }
+
 input,
 textarea {
   width: 100%;
@@ -431,6 +434,7 @@ textarea {
 
 iframe {
   width: 300px;
+  border: none
 }
 
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
