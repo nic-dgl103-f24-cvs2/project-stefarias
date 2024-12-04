@@ -437,6 +437,28 @@ iframe {
   border: none
 }
 
+.business-hours {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 96%);
+  text-align: left;
+}
+
+.business-hours th,
+.business-hours td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.business-hours th {
+  background-color: #e8e5e5;
+  color: black;
+  font-weight: bold;
+}
+
 /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
 @media only screen and (min-width: 1200px) {
   h1 {
@@ -637,6 +659,17 @@ iframe {
   iframe {
     width: 500px;
     margin-top: 4rem;
+  }
+
+  .business-hours {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 1.4rem;
+  }
+
+  .business-hours th,
+  .business-hours td {
+    padding: 12px;
   }
 
   /* LARGE HERO */
